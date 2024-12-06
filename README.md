@@ -2,7 +2,7 @@
 En este repositorio encontraras el reto 3 de programacion orientada a objetos
 
 # DIAGRAMA DE CLASES
-""
+```mermaid
 classDiagram
     class MenuItem {
         -name: str
@@ -45,4 +45,4 @@ classDiagram
     MenuItem <|-- Appetizer
     MenuItem <|-- MainCourse
     Order --> MenuItem
-""
+```mermaid
