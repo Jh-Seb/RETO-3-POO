@@ -1,7 +1,11 @@
 # RETO-3-POO
 En este repositorio encontraras el reto 3 de programacion orientada a objetos
-
+- [RETO 1_1.py](RETO%201_1.py): Operaciones básicas
 # DIAGRAMA DE CLASES
+El siguiente diagrama de clases muestra la estructura del sistema de gestión de un menú y órdenes para un restaurante.
+
+
+
 ```mermaid
 classDiagram
     class MenuItem {
@@ -45,4 +49,6 @@ classDiagram
     MenuItem <|-- Appetizer
     MenuItem <|-- MainCourse
     Order --> MenuItem
+
 ```mermaid
+
