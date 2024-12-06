@@ -50,8 +50,10 @@ classDiagram
     MenuItem <|-- MainCourse
     Order --> MenuItem
 
-```mermaid
-
+```
 
 # CODIGO
 - [RESTAURANTE.py](RESTAURANTE.py): Operaciones básicas
+
+
+
